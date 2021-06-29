@@ -1,0 +1,64 @@
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8d771858] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Fetching config from server at : http://localhost:1111
+Located environment: name=OrderMS, profiles=[default], label=null, version=3e23815988f1a575a960135d57ecdfc531133b99, state=null
+Located property source: CompositePropertySource {name='configService', propertySources=[MapPropertySource {name='configClient'}, MapPropertySource {name='https://infygithub.ad.infosys.com/palleda-sahithi/ConfigRepo.git/OrderMS.properties'}, MapPropertySource {name='https://infygithub.ad.infosys.com/palleda-sahithi/ConfigRepo.git/application.properties'}]}
+No active profile set, falling back to default profiles: default
+Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 63ms. Found 2 JPA repository interfaces.
+BeanFactory id=f77799a6-eb58-3716-a482-8aaace669105
+Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$8d771858] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8300 (http)
+Initializing ProtocolHandler ["http-nio-8300"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.46]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 3139 ms
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate ORM core version 5.4.32.Final
+HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+HikariPool-1 - Starting...
+Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+HikariPool-1 - Start completed.
+HHH000400: Using dialect: org.hibernate.dialect.MySQLDialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+No URLs will be polled as dynamic configuration sources.
+To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+Setting initial instance status as: STARTING
+Initializing Eureka in region us-east-1
+Using JSON encoding codec LegacyJacksonJson
+Using JSON decoding codec LegacyJacksonJson
+Using XML encoding codec XStreamXml
+Using XML decoding codec XStreamXml
+Resolving eureka endpoints via configuration
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: true
+Getting all instance registry info from the eureka server
+The response status is 200
+Starting heartbeat executor: renew interval is: 30
+InstanceInfoReplicator onDemand update allowed rate per min is 4
+Discovery Client initialized at timestamp 1624894290617 with initial instances count: 0
+Registering application ORDERMS with eureka with status UP
+Saw local status change event StatusChangeEvent [timestamp=1624894290623, current=UP, previous=STARTING]
+Starting ProtocolHandler ["http-nio-8300"]
+DiscoveryClient_ORDERMS/MYSJAN21CND-002.ad.infosys.com:OrderMS:8300: registering service...
+Tomcat started on port(s): 8300 (http) with context path ''
+Updating port to 8300
+Started OrderMsApplication in 24.888 seconds (JVM running for 29.306)
+DiscoveryClient_ORDERMS/MYSJAN21CND-002.ad.infosys.com:OrderMS:8300 - registration status: 204
+Disable delta property : false
+Single vip registry refresh property : null
+Force full registry fetch : false
+Application is null : false
+Registered Applications size is zero : true
+Application version is -1: false
+Getting all instance registry info from the eureka server
+The response status is 200
